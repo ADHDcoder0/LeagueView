@@ -36,7 +36,6 @@ fun DetailsTop(
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // Team name
         Text(
             text = standing.team.name,
             style = MaterialTheme.typography.headlineLarge,
@@ -46,7 +45,6 @@ fun DetailsTop(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Top stats row
         StatsCardRow(
             rank = standing.stats.rank,
             wins = standing.stats.wins,
